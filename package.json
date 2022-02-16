@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "react-mailchimp-subscribe": "^2.1.3"
+  }
+}
