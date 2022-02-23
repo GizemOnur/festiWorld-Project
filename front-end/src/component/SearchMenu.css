@@ -32,3 +32,14 @@
     margin: 0 auto;
     margin-bottom: 3rem;
 }
+
+.date-picker {
+border-color: lightgray;
+border-radius: 5px;
+border-width: 0.2px;
+   height: 2.4rem;
+}
+
+
+
+

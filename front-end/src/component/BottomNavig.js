@@ -22,7 +22,7 @@ export default function FixedBottomNavigation() {
     <Box  sx={{pb: 7 }} >
       <CssBaseline />
      
-      <Paper   sx={{ position: 'fixed', bottom: 0, left: 0, right: 0, bgColor: 'red'}} elevation={3} >
+      <Paper   sx={{ position: 'fixed', bottom: 0, left: 0, right: 0, bgColor: 'red', zIndex:99999}} elevation={3} >
         <BottomNavigation style={{ background: 'black' }}
           showLabels
         >

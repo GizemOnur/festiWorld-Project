@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
 function Footer() {
-  return <div style={{marginTop:'10rem'}}>
+  return <div style={{marginTop:'10rem', textAlign:"center", alignItems:"center"}}>
      <Container fluid style={{backgroundColor:'rgb(24, 24, 24)', color:'white', paddingTop:'1rem'}}>
   <Row className='row-text-center'>
     <Col className='col-md-4'>

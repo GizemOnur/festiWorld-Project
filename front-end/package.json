@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@date-io/date-fns": "^2.13.1",
+    "@date-io/moment": "^2.13.1",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.3.1",
@@ -19,6 +21,7 @@
     "history": "^5.2.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.1",
+    "react-datepicker": "^4.6.0",
     "react-dom": "^17.0.2",
     "react-items-carousel": "^2.8.0",
     "react-material-ui-carousel": "^3.1.1",

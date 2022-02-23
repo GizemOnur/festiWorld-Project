@@ -48,7 +48,7 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-           <a className='a' href='/' style={{color:'white',textDecoration:'none' }}>  FestiWorld </a>
+           <a className='a' href='/' style={{color:'white',textDecoration:'none', fontFamily:"orbitron" }}>  FestiWorld </a>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -109,7 +109,8 @@ const ResponsiveAppBar = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip >
-              <Button variant="text" onClick={handleOpenUserMenu} sx={{ p:0, color:"white" }}> |   Log In </Button>
+
+              <Button variant="text" onClick={handleOpenUserMenu} sx={{ p:0, color:"white" }}> <Avatar style={{marginRight:"1rem"}} />|   Log In </Button>
             </Tooltip>
             <Menu
               sx={{ mt: '45px'}}

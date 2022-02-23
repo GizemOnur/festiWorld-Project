@@ -40,7 +40,7 @@ function ProductCTA() {
               px: 3,
             }}
           >
-            <Box component="form" className="n" onSubmit={handleSubmit} sx={{ maxWidth: 400, zIndex: 2}}>
+            <Box component="form" className="n" onSubmit={handleSubmit} sx={{ maxWidth: 400, zIndex: "2"}}>
               <Typography variant="h2" style={{ color: "white", fontWeight: 'normal', fontFamily: 'poppins' }} component="h2" gutterBottom>
                 NEWSLETTER
               </Typography>
