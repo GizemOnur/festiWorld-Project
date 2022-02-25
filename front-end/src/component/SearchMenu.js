@@ -30,7 +30,7 @@ function SearchMenu() {
               Location
             </Form.Label>
             <Form.Control
-
+ 
               id="inlineFormInput"
               placeholder="Select your location"
             />

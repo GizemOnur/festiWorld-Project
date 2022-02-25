@@ -5,15 +5,17 @@ import { Button, Card, Container, ListGroup, ListGroupItem } from 'react-bootstr
 import '../component/AllEventsCards.css';
 import Header from '../component/Header';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import SearchTest from "../component/SearchTest";
 
 
 
 const RenderEvents = (props) => {
     const { title, location, artists, id} = props;
     return (
-      
+    
         <div>
              <Container >
+             <SearchTest />
       <Card style={{ marginTop: 10 }} className="card-event">
         <Card.Img ClassName="CardImg" style={{
           objectFit: 'cover',

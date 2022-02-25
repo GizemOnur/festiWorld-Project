@@ -24,7 +24,7 @@ const RenderNews  = (props) => {
                 justify="flex-start"
                 alignItems="flex-start" >
    
-            <Grid item xs={12} md={12} lg={4} style={{ alignItems: "center", justifyContent: 'center', display: "flex", flexDirection:"row" }}>
+            <Grid item xs={12} md={12} lg={4} direction="row" style={{ alignItems: "center", justifyContent: 'center', display: "flex", flexDirection:"row" }}>
               <Card sx={{ maxWidth: 700 }}>
                 <CardActionArea>
                   <CardMedia
@@ -90,7 +90,7 @@ export default function News() {
     <div id='border'></div>
     </div>
           <NewsList style={{display:"flex", flexDirection:"row"}} />
-         
+        
       </div>
   );
 }

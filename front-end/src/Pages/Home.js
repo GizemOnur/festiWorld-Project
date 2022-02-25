@@ -10,6 +10,7 @@ import ContainerAbout from '../component/ContainerAbout';
 import '../component/Home.css';
 import '../component/Home.css'
 import Newsletter from '../component/Newsletter';
+import SearchTest from '../component/SearchTest';
 
 function Home() {
   return (
@@ -18,11 +19,13 @@ function Home() {
    <Header />
       <Carousel />
       <ContainerAbout />
-      <SearchMenu />
+      <SearchMenu  />
+      <SearchTest />
       <NewsCards />
       <Playlist />
       <Newsletter />
       <Footer />
+      
 <BottomNavig />
 
       
