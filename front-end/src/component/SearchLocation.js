@@ -5,7 +5,7 @@ import { Autocomplete } from '@mui/material';
 import { Box } from '@mui/system';
 
 
-function SearchTest() {
+function SearchLocation() {
 
   // Make the API Call with useState and useEffect//
 
@@ -21,12 +21,12 @@ function SearchTest() {
 
   return (
 
-    <Stack sx={{ width: 300, margin: "auto" }}>
+    <Stack sx={{ width: 250, margin: "auto" }}>
       <Autocomplete
         id="input_demo"
         getOptionLabel={(jsonResults) => `${jsonResults.location} ${jsonResults.location}`}
         options={jsonResults}
-        sx={{ width: 300 }}
+        sx={{ width: 250 }}
         isOptionEqualToValue={(option, value) =>
           option.location === value.location
         }
@@ -44,4 +44,4 @@ function SearchTest() {
   )
 }
 
-export default SearchTest;
+export default SearchLocation;

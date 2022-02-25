@@ -5,7 +5,9 @@ import { Button, Col, Container, Form, FormControl, InputGroup, Row } from 'reac
 import  { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-
+import SearchLocation from './SearchLocation';
+import SearchMusic from './SearchMusic';
+import DateTest from './DateTest';
 
 
 function SearchMenu() {
@@ -26,41 +28,25 @@ function SearchMenu() {
       <Form className="text-center" style={{ width: "100%" }} >
         <Row className="align-items-center-search" >
           <Col xs="auto">
-            <Form.Label className="input" visuallyHidden >
-              Location
-            </Form.Label>
-            <Form.Control
- 
-              id="inlineFormInput"
-              placeholder="Select your location"
-            />
+          <SearchLocation />
+
           </Col>
           <Col xs="auto">
-          <DatePicker className='date-picker' selected={startDate} onChange={(date) => setStartDate(date)}  />
+          <DateTest className='date-picker' selected={startDate} onChange={(date) => setStartDate(date)}  />
           </Col>
           <Col xs="auto">
-            <Form.Select className="input-search" className="mb-1" aria-label="Default select example">
-              <option>Select music type/artists</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </Form.Select>
+         <SearchMusic />
           </Col>
           <Col xs="auto">
-            <Form.Select className="input-search" className="mb-1" aria-label="Default select example">
-              <option>Other options</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </Form.Select>
+          
           </Col>
 
 
           <Col xs="auto">
-            <Button type="submit" variant="dark" className="mb-2" >
+            <Button className="button" type="submit" variant="light" className="mb-2" style={{color:"#7eb0ff", width:220, marginTop:"0.5rem", fontWeight:"bolder"}}>
               Search
             </Button>
-
+           
           </Col>
         </Row>
       </Form>
